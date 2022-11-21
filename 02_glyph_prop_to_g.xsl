@@ -4,7 +4,7 @@
     exclude-result-prefixes="t xs xsl functx" version="2.0">
     <!-- xmlns="http://www.tei-c.org/ns/1.0"-->
     
-    <xsl:variable name="charDecl" select="document('characterDecl_corema.xml')/t:TEI/t:teiHeader/t:encodingDesc/t:charDecl"/>
+    <xsl:variable name="charDecl" select="document('characterDecl.xml')/t:TEI/t:teiHeader/t:encodingDesc/t:charDecl"/>
     
     <xsl:function name="functx:escape-for-regex" as="xs:string"
         xmlns:functx="http://www.functx.com">
